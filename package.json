@@ -1,8 +1,14 @@
 {
-  "name": "y",
+  "name": "burger",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,11 +22,5 @@
   "bugs": {
     "url": "https://github.com/shilpipawar/burger/issues"
   },
-  "homepage": "https://github.com/shilpipawar/burger#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/shilpipawar/burger#readme"
 }
