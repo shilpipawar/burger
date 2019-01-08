@@ -31,11 +31,11 @@
 			<ul>
 				{{#each burgers}}
 				{{#unless this.devoured}}
-				<li id ="list">
+				<li>
 					{{this.id}}
 					{{this.burger_name}}
-
-						<button class="btn-primary update-form" type="submit" data-id={{this.id}}>Devour It!</button>
+					<br>
+					<button class="btn-primary update-form" type="submit" data-id={{this.id}}>Devour It!</button>
 				</li>
 				{{/unless}}
 				{{/each}}
@@ -43,21 +43,16 @@
 		</div>
 
 		<div class="col-sm-6">
-
 			<h2>Burgers That Have Been Eaten!</h2>
-
 			{{#each burgers}}
 			{{#if this.devoured}}
 			<li>
 				{{this.id}}
 				{{this.burger_name}}
-
 			</li>
 			{{/if}}
 			{{/each}}
-
 		</div>
-
 	</div>
 	<!-- end .row -->
 
