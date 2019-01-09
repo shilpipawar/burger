@@ -16,8 +16,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "pgo8zvutoclopn5d",
+    "password": "h1n10wa231zad2tu",
     "database": "burgers_db",
     "host": "127.0.0.1",
     "port": 3306,
